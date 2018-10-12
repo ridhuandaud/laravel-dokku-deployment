@@ -46,6 +46,7 @@ dokku config:set laravel_app APP_ENV=production APP_KEY=yoursecretkeyinserthere 
 ```
 # on the Dokku host
 dokku config:set laravel_app BUILDPACK_URL=https://github.com/heroku/heroku-buildpack-php
+```
 
 ###### Clone your app from github / gitlab / bitbucket
 
